@@ -1,0 +1,114 @@
+
+* {
+    padding: 0px;
+    box-sizing: 0px;
+    margin: 0px;
+  }
+
+  .container {
+    background-color: aliceblue;
+    height: 100vh;
+  }
+
+  .box {
+    height: 180px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color: rgb(5, 1, 20);
+    border-bottom-right-radius: 150px;
+    text-align: center;
+    font-size: 40px;
+    /* padding-top: 2%; */
+    /* position: relative; */
+
+  }
+
+  .box p {
+    color: rgb(243, 75, 46);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 6px;
+
+  }
+
+  .container2 h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .container3 .box2 {
+    height: 70vh;
+    width: 30%;
+    background-color: rgb(6, 6, 83);
+    float: right;
+    margin-top: -17%;
+    margin-right: 10%;
+    border-radius: 5px;
+  }
+
+  .container3 .inputs input {
+    width: 270px;
+    padding: 15px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 2px;
+    margin-left: 2%;
+    font-size: 15px;
+  }
+
+  .container3 button {
+    width: 75px;
+    height: 40px;
+    background-color: rgb(68, 68, 247);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    color: white;
+    /* margin-left: 8%; */
+    font-size: 15px;
+    margin-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+  .box2 h2 {
+    color: rgb(243, 247, 41);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-left: 2%;
+    margin-top: 5%;
+  }
+  .text ul{
+    position: relative;
+    background-color: black;
+    color: rgb(243, 252, 252);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(149, 250, 250);
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .text ul i{
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    color: red;
+  }
+
+@media  (max-width:450px) {
+    .box {
+        height: 350px;
+        width: 351px;
+        /* border: 2px solid black; */
+        background-color: rgb(5, 1, 20);
+        border-bottom-right-radius: 150px;
+        text-align: center;
+        font-size: 40px;
+        /* padding-top: 2%; */
+        /* position: relative; */
+    }
+}
+
